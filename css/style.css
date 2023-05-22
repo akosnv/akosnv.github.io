@@ -1,0 +1,40 @@
+.gradient-background {
+    background: rgb(93,224,230);
+    background: linear-gradient(90deg, rgba(93,224,230,1) 0%, rgba(0,120,166,1) 80%);
+}
+
+.btn-primary {
+    background-color: #174B4D;
+    border-color: #174B4D;
+    border-radius: 0;
+}
+
+.btn-primary:hover {
+    background-color: #E8F8F8;
+    color: black;
+}
+
+.btn-primary:active {
+    background-color: #E8F8F8 !important;
+    color: black !important;
+  }
+
+
+h1 {
+    color: white;
+    font-size: calc(3rem + 1.5vw) !important;
+}
+
+.rotate-90 {
+    transform: rotate(180deg);
+}
+
+.container {
+    max-width: 6000px;
+}
+
+.profile-bg {
+    background-color: #E8F8F8;
+}
+
+.invert { filter: invert(100%); }
