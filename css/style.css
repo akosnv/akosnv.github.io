@@ -38,3 +38,39 @@ h1 {
 }
 
 .invert { filter: invert(100%); }
+
+
+
+@media (max-width: 576px) {
+    .px-sm-5 {
+        padding-left: 5vh;
+        padding-right: 5vh;
+    }
+}
+
+@media (max-width: 576px) {
+    .pt-sm-5 {
+        padding-top: 5vh;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .content-h-centered-sm {
+        padding-left: 10vh;
+        padding-right: 10vh;
+    }
+}
+
+
+@media (min-width: 576px) {
+    .content-h-centered-md {
+        padding-left: 20vh;
+        padding-right: 20vh;
+    }
+}
+
+.ph-center {
+    padding-top: 25vh;
+    padding-bottom: 25vh;
+}
