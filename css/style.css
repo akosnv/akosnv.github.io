@@ -49,11 +49,17 @@ h1 {
 }
 
 @media (max-width: 576px) {
+    .py-sm-5 {
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+}
+
+@media (max-width: 576px) {
     .pt-sm-5 {
         padding-top: 5vh;
     }
 }
-
 
 @media (max-width: 576px) {
     .content-h-centered-sm {
